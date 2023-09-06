@@ -7,6 +7,10 @@
 */
 
 //CODE HERE
+lovesCode = true
+if(lovesCode){
+  console.log('I love to code!')
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -21,6 +25,19 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+!(function(){
+  let sentence =""
+    if(amysAge>brittanisAge){
+      sentence = 'Amy is older'
+    }
+    else if(amysAge<brittanisAge){
+      sentence = "Brittani is older"
+    }
+    else if(amysAge === brittanisAge) {
+      sentence= "Amy & Brittani are the same age."
+    }
+      console.log(sentence)
+})();
 
 ////////// PROBLEM 3 //////////
 
@@ -29,6 +46,7 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+
 
 ////////// PROBLEM 4 //////////
 
